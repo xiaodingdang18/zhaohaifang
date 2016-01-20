@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:UITapGestureView/UITapGestureView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:transformView/transformView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GradientColorView/GradientColorView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DeviceOrientation/DeviceOrientation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:L02/L02.xcodeproj">
    </FileRef>
 </Workspace>

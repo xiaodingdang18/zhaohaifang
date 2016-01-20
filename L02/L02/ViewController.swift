@@ -16,9 +16,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        //添加图片
+        addImageView()
+        
+        //设置背景颜色为图片
+        patternImageView()
+        
+    }
+    
+    func addImageView()
+    {
         let img = UIImage(named: "1.png")
         let imageView = UIImageView(image: img)
         self.view.addSubview(imageView)
+    }
+    
+    func patternImageView()
+    {
+        let image = UIImage(named: "1.png")
+       // let imageView = UIImageView(image: image)
+        
+        let patternColor = UIColor.init(patternImage: image!)
+        self.view.backgroundColor = patternColor
     }
 
     override func didReceiveMemoryWarning() {
